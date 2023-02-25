@@ -71,7 +71,7 @@ body{
     font-weight: 400;
     font-size: 1.5rem;
 }
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -102,22 +102,18 @@ body{
     font-weight: 400;
 }
 
-
-@media (max-width: 1200ox) {
-    .cabecalho {
-        padding: 10%;
+@media (max-width: 1200px) {
+    .cabecalho{
+         padding: 10%;  
     }
-
-    .cabecalho__menu {
+    .cabecalho__menu{
         justify-content: center;
     }
-   
-    .apresentacao {
+    .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
     }
     .apresentacao__conteudo{
         width: auto;
-    
     }
 }
